@@ -1,196 +1,227 @@
+
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AgilePhD | Welcome</title>
-    <link rel="stylesheet"
-      href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-    <link rel="stylesheet" href="https://s3.amazonaws.com/agilephd/styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.3/motion-ui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation-prototype.min.css">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
+    <!-- optional CDN for Foundation Icons ^^ -->
   </head>
   <body>
-
-    <!-- Start Top Bar -->
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text agilephd">AgilePhD</li>
-        </ul>
+    <!-- Info Banner For Announcements or Links -->
+    <!-- <a href="https://zurb.com/university/foundation-intro" class="docs-banner course-banner">
+      <div class="info">
+        <h5 class=""><strong>To master everything new in 6.4, along with the rest of Foundation register for our Aug 8th Webinar Class &rsaquo;</strong></h5>
       </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-          <li><a data-open="contactModal">Contact</a></li>
-        </ul>
+    </a> -->
+    
+    <!-- <a href="https://zurb.com/wired" id="notice">
+      <div class="info hide-for-small">
+        <div id="clockdiv" class="countdown">
+            <span class="timer-day days"></span>
+            <span class="timer-colon">:</span>
+          <span class="timer-hour hours"></span>
+          <span class="timer-colon">:</span>
+          <span class="timer-hour minutes"></span>
+          <span class="timer-colon">:</span>
+          <span class="timer-seconds seconds"></span>
+        </div>
       </div>
-    </div>
-    <!-- End Top Bar -->
+    </a> -->
 
-    <div class="callout large scrum">
-      <div class="row column text-center bottom">
-        <h1 class="scrum_h1 bottom">Organizational Change Through Agile Methods</h1>
-      </div>
-    </div>
+    
+        <!-- Start Top Bar -->
+        <div class="top-bar">
+          <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li class="menu-text">The Life Line</li>
+              <li class="has-submenu">
+                <a href="#">One</a>
+                <ul class="submenu menu vertical" data-submenu>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Shop Here</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+            </ul>
+          </div>
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li><input type="search" placeholder="Search"></li>
+              <li><button type="button" class="button">Search</button></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End Top Bar -->
+        <br>
+      <article class="grid-container">
+        <div class="grid-x cell">
+          <nav aria-label="You are here:" role="navigation">
+            <ul class="breadcrumbs">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Features</a></li>
+              <li class="disabled">Gene Splicing</li>
+              <li>
+                <span class="show-for-sr">Current: </span> Cloning
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="grid-x grid-margin-x">
+          <div class="medium-6 cell">
+            <img class="thumbnail" src="assets/images/lifelinebundle.jpg" alt="Life Line Bundle Kit">
+            <div class="grid-x grid-padding-x small-up-4">
+              <div class="cell">
+                <img src="assets/images/lifelinebundle.jpg" alt="Life Line Bundle Kit">
+              </div>
+              <div class="cell">
+                <img src="https://placehold.it/250x200">
+              </div>
+              <div class="cell">
+                <img src="https://placehold.it/250x200">
+              </div>
+              <div class="cell">
+                <img src="https://placehold.it/250x200">
+              </div>
+            </div>
+          </div>
+          <div class="medium-6 large-5 cell large-offset-1">
+            <h3>Life Line Bundle Kit</h3>
+            <p>This beautiful bundle includes our all natural shampoo, conditioner, hair oil, and hair mask!</p>
+    
+            <label>Size
+            <select>
+              <option value="husker">LIFE LINE KIT</option>
+            </select>
+            </label>
+    
+            <div class="grid-x">
+              <div class="small-3 cell">
+                <label for="middle-label" class="middle">Quantity</label>
+              </div>
+              <div class="small-9 cell">
+                <input type="text" id="middle-label" placeholder="One fish two fish">
+              </div>
+            </div>
+    
+            <a href="#" class="button large expanded">Buy Now</a>
+    
+            <div class="small secondary expanded button-group">
+                <a class="button">Facebook</a>
+                <a class="button">Twitter</a>
+                <a class="button">Yo</a>
+              </div>
+            </div>
+        </div>
+    
+        <div class="">
+          <hr>
+          <ul class="tabs" data-tabs id="example-tabs">
+            <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Reviews</a></li>
+            <li class="tabs-title"><a href="#panel2">Similar Products</a></li>
+          </ul>
+          <div class="tabs-content" data-tabs-content="example-tabs">
+            <div class="tabs-panel is-active" id="panel1">
+              <h4>Reviews</h4>
+              <div class="media-object stack-for-small">
+                <div class="media-object-section">
+                  <img class="thumbnail" src="https://placehold.it/200x200">
+                </div>
+                <div class="media-object-section">
+                  <h5>Tai F.</h5>
+                  <p>Best hair products ever!</p>
+                </div>
+              </div>
+              <div class="media-object stack-for-small">
+                <div class="media-object-section">
+                  <img class="thumbnail" src="https://placehold.it/200x200">
+                </div>
+                <div class="media-object-section">
+                  <h5>Jazz W.</h5>
+                  <p>These products are so amazing!</p>
+                </div>
+              </div>
+              <div class="media-object stack-for-small">
+                <div class="media-object-section">
+                  <img class="thumbnail" src="https://placehold.it/200x200">
+                </div>
+                <div class="media-object-section">
+                  <h5>Lauren B.</h5>
+                  <p>Love, love, love!</p>
+                </div>
+              </div>
+              <label>
+                My Review
+                <textarea placeholder="None"></textarea>
+              </label>
+              <button class="button">Submit Review</button>
+            </div>
+            <div class="tabs-panel" id="panel2">
+              <div class="grid-x grid-margin-x medium-up-3 large-up-5">
+                <div class="cell">
+                  <img class="thumbnail" src="https://placehold.it/350x200">
+                  <h5>Other Product <small>$22</small></h5>
+                  <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
+                  <a href="#" class="button hollow tiny expanded">Buy Now</a>
+                </div>
+                <div class="cell">
+                  <img class="thumbnail" src="https://placehold.it/350x200">
+                  <h5>Other Product <small>$22</small></h5>
+                  <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
+                  <a href="#" class="button hollow tiny expanded">Buy Now</a>
+                </div>
+                <div class="cell">
+                  <img class="thumbnail" src="https://placehold.it/350x200">
+                  <h5>Other Product <small>$22</small></h5>
+                  <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
+                  <a href="#" class="button hollow tiny expanded">Buy Now</a>
+                </div>
+                <div class="cell">
+                  <img class="thumbnail" src="https://placehold.it/350x200">
+                  <h5>Other Product <small>$22</small></h5>
+                  <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
+                  <a href="#" class="button hollow tiny expanded">Buy Now</a>
+                </div>
+                <div class="cell">
+                  <img class="thumbnail" src="https://placehold.it/350x200">
+                  <h5>Other Product <small>$22</small></h5>
+                  <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
+                  <a href="#" class="button hollow tiny expanded">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <hr>
+    
+        <div class="grid-x align-justify align-middle">
+          <div class="small-12 medium-shrink cell">
+            <ul class="menu">
+              <li class="align-self-middle">Yeti Store</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+    
+          <div class="small-12 medium-shrink cell">
+            <span>Copyright 2018</span>
+          </div>
+        </div>
+      </article>
+    
 
-    <div class="row">
-      <div class="medium-6 columns medium-push-6">
-        <img class="thumbnail pm_image"
-          src="https://s3.amazonaws.com/agilephd/project_management.jpg">
-      </div>
-      <div class="medium-6 columns medium-pull-6">
-        <h2>Agile Project Management</h2>
-        <p>
-          As an experienced agile project manager, AgilePhD is the niche provider
-          clients seek out when they are looking to implement business-enhancing,
-          agile PMO services that improve project and portfolio performance.
-        </p>
-
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="medium-4 columns">
-        <h3>Project Management</h3>
-        <p>
-          Speed is what companies want as they adopt Agile. Traditional
-          plan-driven methodologies like Waterfall make a lot of up front
-          assumptions and leave no flexibility to adapt to the changing
-          needs of the customer.
-        </p>
-      </div>
-      <div class="medium-4 columns">
-        <h3>Software Development</h3>
-        <p>
-          It's all about that MVP (minimally viable product) and getting
-          it in front of your customers.  I love building technology products.  
-        </p>
-      </div>
-      <div class="medium-4 columns">
-        <h3>Cloud Services</h3>
-        <p>
-          As an early adopter several cloud technologies, AgilePhD can
-          help you develop a scalable solutions allowing you to focus
-          on your core business.
-        </p>
-      </div>
-    </div>
-
-    <hr>
-
-    <div class="row column">
-      <ul class="vertical medium-horizontal menu expanded text-center">
-        <li>
-          <a href="#"><div class="stat">600+</div><span>Students Trained</span></a>
-        </li>
-        <li>
-          <a href="#"><div class="stat">20+</div><span>Web App Projects</span></a>
-        </li>
-        <li>
-          <a href="#"><div class="stat">12+</div><span>Mobile App Projects</span></a>
-        </li>
-      </ul>
-    </div>
-
-    <hr>
-
-    <div class="row column">
-      <h3>Recent Web Apps</h3>
-    </div>
-
-    <div class="row medium-up-3 ">
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/damagelist.png">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/health_engagements.png">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/animalminder_2.jpg">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/sabot_solutions.png">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/sicklewell.png">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/rails_girls.png">
-      </div>
-
-    </div>
-
-    <hr>
-
-    <div class="row column">
-      <h3>Recent Mobile Apps</h3>
-    </div>
-
-    <div class="row small-up-2 medium-up-5 ">
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/damagelist_ios_3.jpg">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/btr_crime.jpeg">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/seattle_crime.jpeg">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/sfo_crime.jpeg">
-      </div>
-      <div class="column">
-        <img class="thumbnail"
-          src="https://s3.amazonaws.com/agilephd/sicklewell_ios.png">
-      </div>
-
-    </div>
-
-    <hr>
-
-    <div class="row column">
-      <ul class="menu">
-
-        <li>
-          <a href="https://www.linkedin.com/in/jdavisphd/" class="" target="_blank">
-            <img src="https://s3.amazonaws.com/agilephd/webicon-linkedin-m.png">
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/cavalryjim" class="" target="_blank">
-            <img src="https://s3.amazonaws.com/agilephd/webicon-github-m.png">
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="reveal" id="contactModal" data-reveal>
-      <h4>Contact information</h4>
-      <ul class="no-bullet">
-        <li>Dr. James Davis, PhD, PMP, CSP, CSM</li>
-        <li>
-          <a href="mailto:james@agilephd.com?Subject=AgilePhD" target="_top">
-            james@agilephd.com
-          </a>
-        </li>
-        <li><a href="tel:+12258920230">+1.225.892.0230</a></li>
-      </ul>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.3/motion-ui.min.js"></script>
     <script>
       $(document).foundation();
     </script>
